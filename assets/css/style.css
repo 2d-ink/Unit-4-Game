@@ -1,0 +1,57 @@
+body {
+    background: url("../images/bananas.png");
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.crystal {
+    border: 1px solid green; 
+    height: 200px; 
+    width: 200px; 
+}
+
+.header {
+    background-color: orange;
+    margin-right: 68%;
+    margin-top: 1%;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1%;
+}
+
+.rules {
+    background-color: peachpuff;
+    margin-left: 1.4%;
+    margin-bottom: 1%;
+}
+
+.result {
+    margin-bottom: 1%;
+}
+
+.number {
+    background-color: green; 
+}
+
+.winOrLoss {
+    background-color: lightskyblue;
+    margin-right: 50%;
+}
+
+.font {
+    color: green;
+}
+
+#numGen {
+    font-size: 43px;
+}
+
+.totalScore {
+    Margin-top: 20px; 
+    Margin-bottom: 20px; 
+}
